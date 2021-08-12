@@ -3,7 +3,7 @@ const servidor = express()
 
 servidor.get('/', (req, res, next) => {
     return res.send({
-        "mensagem":"Bem-vindo ao servidor NodeJS"
+        "mensagem":"Bem Vindo ao servidor Nodejs"
     })
 })
 
